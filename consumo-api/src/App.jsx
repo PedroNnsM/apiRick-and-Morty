@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-
+import Navbar from './components/Navbar/Navbar';
+import Characters from './components/Characters/Characters';
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -19,10 +20,12 @@ function App() {
   return (
 
     <>
-
-      <h1>Hello world!</h1>
-      <div className='container'>
-        
+      <Navbar />
+      <h1 className="text-3xl font-bold underline text-center">
+      Hello world!
+      </h1>
+      <div className=' md:grid max-w-sm'>
+        <Characters characters={characters} />
       </div>
     </>
   )
