@@ -1,0 +1,11 @@
+.Human{
+   
+    border-color: green;
+    box-shadow: 2px 2px 20px 12px green;
+}
+
+.Alien{
+    border-color: orange;
+    box-shadow: 2px 2px 20px 12px orange;
+
+}

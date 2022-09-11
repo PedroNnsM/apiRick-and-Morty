@@ -24,7 +24,7 @@ function App() {
       <h1 className="text-3xl font-bold underline text-center">
       Hello world!
       </h1>
-      <div className=' md:grid max-w-sm'>
+      <div className=' w-full py-5 flex items-center justify-center'>
         <Characters characters={characters} />
       </div>
     </>
